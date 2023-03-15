@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="CGV는 선진화된 관람문화와 최고의 서비스로 고객에게 잊을 수 없는 감동을 선사합니다. CGV홈페이지를 통해 영화 예매뿐만 아니라 그 이상의 서비스와 감동을 전달하고, 다양한 즐거움과 특별한 경험을 제공하고자 합니다.">
+  <meta name="keywords" content="CGV, 시지브이, 영화관, 극장, 영화, 티켓, 박스오피스, 극장, Movie, Theater, Cinema, Cgv, cgv, 예매, 상영작">
+  <title>영화 그 이상의 감동. CGV</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- 부트스트랩 -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <!-- 어썸 -->
+  <script src="https://kit.fontawesome.com/ce0de73234.js" crossorigin="anonymous"></script>
+  <!-- 파비콘 -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon_package_v0.16 (9)/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_package_v0.16 (9)/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_package_v0.16 (9)/favicon-16x16.png">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- 제이커리 -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="cgv-on-top">
+        <button class="close-btn">X</button>
+        <a href="http://www.cgv.co.kr/movies/detail-view/?midx=86489">
+          <img src="./images/header/gnb_header.jpg" alt="배너">
+        </a>
+      </div>
+
+
+      <div class="gnb-wrapper">
+        <div class="gnb-wrapper-2">
+          <div class="gnb-box">
+            <a href="./index.html">
+              <img width="120" src="./images/header/logoRed.png" alt="cgv">
+              <span>CULTUREPLEX</span>
+            </a>
+
+            <div class="member-wrapper">
+              <ul class="member-list">
+                <a class="member-item"
+                  href="http://www.cgv.co.kr/culture-event/event/detailViewUnited.aspx?seq=31426&menu=006">
+                  <img width="120" src="./images/header/hundai card.png" alt="card">
+                </a>
+                <li class="member-item">
+                  <a href="https://www.cgv.co.kr/user/login/?returnURL=https%3a%2f%2fwww.cgv.co.kr%2fdefault.aspx">
+                    <img width="40" src="./images/gnb-member/loginPassword.png" alt="loginPassword">
+                    <p>로그인</p>
+                  </a>
+                </li>
+                <li class="member-item">
+                  <a href="http://www.cgv.co.kr/user/join/">
+                    <img width="40" src="./images/gnb-member/loginJoin.png" alt="Join">
+                    <p>회원가입</p>
+                  </a>
+                </li>
+                <li class="member-item">
+                  <a href="">
+                    <img width="40" src="./images/gnb-member/loginMember.png" alt="Member">
+                    <p>MY CGV</p>
+                  </a>
+                </li>
+                <li class="member-item">
+                  <a href="http://www.cgv.co.kr/support/default.aspx">
+                    <img width="40" src="./images/gnb-member/loginCustomer.png" alt="Customer">
+                    <p>고객센터</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+
+
+        <nav class="menu-box">
+          <ul class="menu-box-list">
+            <li>영화</li>
+            <li>극장</li>
+            <li class="menu-box-red">예매</li>
+            <li>스토어</li>
+            <li>이벤트</li>
+            <li>혜택</li>
+          </ul>
+
+          <div class="menu-box-right">
+            <input class="serch" type="text" placeholder=" 캐리 첫 영화!">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </nav>
+
+        <div class="sub">
+          <div class="sub-menu">
+            <div class="sub-menu-box">
+              <ul class="sub-menu-list">
+                <li class="sub-top">영화</li>
+                <li><a href="./">무비차트</a></li>
+                <li><a href="./">아트하우스</a></li>
+                <li><a href="./">ICEON</a></li>
+              </ul>
+              <ul class="sub-menu-list">
+                <li class="sub-top">극장</li>
+                <li><a href="./">CGV극장</a></li>
+                <li><a href="./">특별관</a></li>
+              </ul>
+              <ul class="sub-menu-list">
+                <li class="sub-top">예매</li>
+                <li><a href="./">빠른예매</a></li>
+                <li><a href="./">상영스케줄</a></li>
+                <li><a href="./">English Ticketing</a></li>
+                <li><a href="./">English Ticketing</a></li>
+              </ul>
+              <ul class="sub-menu-list">
+                <li class="sub-top">스토어</li>
+                <li><a href="./">영화관람권</a></li>
+                <li><a href="./">기프트카드</a></li>
+                <li><a href="./">콤보</a></li>
+                <li><a href="./">팝콘</a></li>
+                <li><a href="./">음료</a></li>
+                <li><a href="./">스낵</a></li>
+                <li><a href="./">플레이존</a></li>
+                <li><a href="./">씨네샵<i class="fa-solid fa-chevron-right"></i></a></li>
+              </ul>
+              <ul class="sub-menu-list">
+                <li class="sub-top">이벤트</li>
+                <li><a href="./">SPECIAL</a></li>
+                <li><a href="./">영화/예매</a></li>
+                <li><a href="./">멤버십/CLUB</a></li>
+                <li><a href="./">CGV 극장별</a></li>
+                <li><a href="./">제휴할인</a></li>
+                <li><a href="./">당첨자 발표</a></li>
+                <li><a href="./">종료된 이벤트</a></li>
+              </ul>
+              <ul class="sub-menu-list">
+                <li class="sub-top">혜택</li>
+                <li><a href="./">CGV 할인정보</a></li>
+                <li><a href="./">CLUB 서비스</a></li>
+                <li><a href="./">VIP 라운지</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-wrapper">
+        <div class="main-video">
+          <!-- <video autoplay loop>
+            <source src="./images/y2meta.com - [티저 예고편] 프린스 챠밍.mp4">
+          </video> -->
+        </div>
+
+        <!-- <iframe src="./images/y2meta.com - [티저 예고편] 프린스 챠밍.mp4" frameborder="0"></iframe> -->
+        <nav class="prins-chaming">
+          <div class="prins-chaming-box">
+            <div class="tlite">프린스 챠밍</div>
+            <div class="title-sub">'슈렉' 제작진의 상상 초월 반전동화 </div>
+            <div class="title-sub-2">절찬상영중</div>
+          </div>
+        </nav>
+        <div class="prins-chaming-text">
+          <a href="http://www.cgv.co.kr/movies/detail-view/?midx=86489"><button type="button">상세보기 <i
+                class="fa-solid fa-angle-right"></i></button></a>
+        </div>
+      </div>
+    </main>
+
+    <main>
+      <div class="mv-wrapper">
+        <div class="mv-box-1">
+          <i class="fa-solid fa-chevron-left"></i>
+          <i class="fa-solid fa-chevron-right"></i>
+          <div class="mv-1">
+            <div class="mv-cp">
+              <div class="mv-cp-left">
+                <button type="button" id="mv-chart">
+                  <h3 class="mv-chart">무비차트</h3>
+                </button>
+                <button type="button" id="mv-plan">
+                  <h3 class="mv-plan">상영예정작</h3>
+                </button>
+              </div>
+              <div class="mv-cp-right">
+                <button type="button">
+                  <p>전체보기</p>
+                  <i class="fa-solid fa-angle-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="mv-chart-list">
+
+              <div class="chat-box">
+                <div class="chat img"><img width="140" src="./images/무비차트/아바타.jpg" alt="아바타-물의 길"></div>
+                <div class="mv-chart-item">
+                  <strong>아바타-물의 길</strong>
+                  <ul class="mv-ranking">
+                    <span><img width="15" src="./images/무비차트/eggGoldenegggreat.png" alt="egg">
+                      <p>96%</p>
+                    </span>
+                    <span>예매율 23.7%</span>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="chat-box">
+                <div class="chat-img"><img width="140" src="./images/무비차트/교섭.jpg" alt="교섭"></div>
+                <div class="mv-chart-item">
+                  <strong>교섭</strong>
+                  <ul class="mv-ranking">
+                    <span><img width="15" src="./images/무비차트/eggGoldenegggreat.png" alt="egg">
+                      <p>87%</p>
+                    </span>
+                    <span>예매율 22.9%</span>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="chat-box">
+                <div class="chat-img"><img width="140" src="./images/무비차트/유령.jpg" alt="유령"></div>
+                <div class="mv-chart-item">
+                  <strong>유령</strong>
+                  <ul class="mv-ranking">
+                    <span><img width="15" src="./images/무비차트/eggGoldenegggreat.png" alt="egg">
+                      <p>86%</p>
+                    </span>
+                    <span>예매율 18.3%</span>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="chat-box">
+                <div class="chat-img"><img width="140" src="./images/무비차트/방탄소년단 옛 투어.jpg" alt="방탄소년단 옛 투어"></div>
+                <div class="mv-chart-item">
+                  <strong>방탄소년단 옛 투어</strong>
+                  <ul class="mv-ranking">
+                    <span><img width="15" src="./images/무비차트/eggGoldeneggPreegg.png" alt="egg">
+                      <p>99%</p>
+                    </span>
+                    <span>예매율 16.4%</span>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="chat-box">
+                <div class="chat-img"><img width="140" src="./images/무비차트/슬램덩크.jpg" alt="더 퍼스트 슬램덩크"></div>
+                <div class="mv-chart-item">
+                  <strong>더 퍼스트 슬램덩크</strong>
+                  <ul class="mv-ranking">
+                    <span><img width="15" src="./images/무비차트/eggGoldenegggreat.png" alt="egg">
+                      <p>97%</p>
+                    </span>
+                    <span>예매율 7.3%</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="mv-plan-list">
+
+              <div class="chat-box">
+                <div class="chat-img"><img width="150" src="./images/상영예정작/마루이 비디오.jpg" alt="마루이 비디오"></div>
+                <div class="mv-chart-item">
+                  <strong>마루이 비디오</strong>
+                  <ul class="mv-ranking">
+                    <span><img width="15" src="./images/무비차트/eggGoldeneggPreegg.png" alt="egg">
+                      <p>?</p>
+                    </span>
+                    <span>예매율 0.0%</span>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="chat-box">
+                <div class="chat-img"><img width="150" src="./images/상영예정작/극장판 파워레인저어.jpg" alt="극장판 파워레인저"></div>
+                <div class="mv-chart-item">
+                  <strong>극장판 파워레인저...</strong>
+                  <ul class="mv-ranking">
+                    <span><img width="15" src="./images/무비차트/eggGoldeneggPreegg.png" alt="egg">
+                      <p>97%</p>
+                    </span>
+                    <span>예매율 0.7%</span>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="chat-box">
+                <div class="chat-img"><img width="150" src="./images/상영예정작/ENHYPEN WORLD .....jpg" alt="ENHYPEN WORLD">
+                </div>
+                <div class="mv-chart-item">
+                  <strong>ENHYPEN WORLD ..</strong>
+                  <ul class="mv-ranking">
+                    <span><img width="15" src="./images/무비차트/eggGoldeneggPreegg.png" alt="egg">
+                      <p>?</p>
+                    </span>
+                    <span>예매율 0.1%</span>
+                </div>
+              </div>
+
+              <div class="chat-box">
+                <div class="chat-img"><img width="150" src="./images/상영예정작/뮬란.jpg" alt="뮬란"></div>
+                <div class="mv-chart-item">
+                  <strong>뮬란</strong>
+                  <ul class="mv-ranking">
+                    <span><img width="15" src="./images/무비차트/eggGoldenegggreat.png" alt="egg">
+                      <p>97%</p>
+                    </span>
+                    <span>예매율 0.1%</span>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="chat-box">
+                <div class="chat-img"><img width="150" src="./images/상영예정작/위너 2022 콘서트.....jpg" alt="위너 2022 콘서트"></div>
+                <div class="mv-chart-item">
+                  <strong>위너 2022 콘서트....</strong>
+                  <ul class="mv-ranking">
+                    <span><img width="15" src="./images/무비차트/eggGoldenegggreat.png" alt="egg">
+                      <p>96%</p>
+                    </span>
+                    <span>예매율 0.9%</span>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mv-box-2">
+          <i class="fa-solid fa-chevron-left"></i>
+          <i class="fa-solid fa-chevron-right"></i>
+          <div class="mv-2">
+            <div class="mv-cp">
+              <strong class="event">EVENT</strong>
+              <div class="mv-cp-right-white">
+                <button type="button">
+                  <p>전체보기</p>
+                  <i class="fa-solid fa-angle-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="event-list">
+
+              <div class="event-box">
+                <a href="http://www.cgv.co.kr/culture-event/event/detailViewUnited.aspx?seq=36250">
+                  <img width="280" src="./images/이벤트/[영웅] 설날맞이가족 관람 이벤트.jpg" alt="[영웅] 설날맞이가족 관람 이벤트">
+                </a>
+                <div class="event-item">
+                  <strong>[영웅] 설날맞이가족 관람 이벤트</strong>
+                  <p>2023.01.13~2023.01.26</p>
+                </div>
+              </div>
+
+              <div class="event-box">
+                <a href="http://www.cgv.co.kr/culture-event/event/detailViewUnited.aspx?seq=35437">
+                  <img width="280" src="./images/이벤트/CGV X TVING 월정기 해택 [CGV PLUS].jpg"
+                    alt="CGV X TVING 월정기 해택 [CGV PLUS]">
+                </a>
+                <div class="event-item">
+                  <strong>CGV X TVING 월정기 해택 [CGV PLUS]</strong>
+                  <p>2023.01.13~2023.01.26</p>
+                </div>
+              </div>
+
+              <div class="event-box">
+                <a href="http://www.cgv.co.kr/culture-event/event/detailViewUnited.aspx?seq=36229">
+                  <img width="280" src="./images/이벤트/[유령] 필름파크.jpg" alt="[유령] 필름파크">
+                </a>
+                <div class="event-item">
+                  <strong>[유령] 필름파크</strong>
+                  <p>2022.12.02~2032.12.02</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="event-list-2">
+
+              <div class="event-box">
+                <a href="http://www.cgv.co.kr/culture-event/event/detailViewUnited.aspx?seq=36229">
+                  <img width="280" src="./images/이벤트/[유령] 필름파크.jpg" alt="[유령] 필름파크">
+                </a>
+                <div class="event-item">
+                  <strong>[유령] 필름파크</strong>
+                  <p>2022.12.02~2032.12.02</p>
+                </div>
+              </div>
+
+              <div class="event-box">
+                <a href="http://www.cgv.co.kr/culture-event/event/detailViewUnited.aspx?seq=36228">
+                  <img width="280" src="./images/이벤트/[교섭] 필름파크.jpg" alt="[교섭] 필름파크">
+                </a>
+                <div class="event-item">
+                  <strong>[교섭] 필름파크</strong>
+                  <p>2023.01.11~2023.01.24</p>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="event-box">
+                <a href="http://www.cgv.co.kr/culture-event/event/detailViewUnited.aspx?seq=35945">
+                  <img width="280" src="./images/이벤트/[CGV VIP] VIP PLAY.jpg" alt="[CGV VIP] VIP PLAY">
+                </a>
+                <div class="event-item">
+                  <strong>[CGV VIP] VIP PLAY</strong>
+                  <p>2022.12.01~2023.02.28</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mv-box-3">
+          <div class="mv-3">
+            <div class="mv-cp">
+              <strong class="special">특별관</strong>
+              <div class="mv-cp-right-white">
+                <button type="button">
+                  <p>전체보기</p>
+                  <i class="fa-solid fa-angle-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="special-wrapper">
+              <div class="special-img">
+                <a href="http://www.cgv.co.kr/theaters/special/defaultDetailNew.aspx?idx=7">
+                  <div id="special-1"><img width="500" src="./images/특별관/SUITE CINEMA.png" alt="SUITE CINEMA"></div>
+                </a>
+                <a href="http://www.cgv.co.kr/theaters/special/defaultDetailNew.aspx?idx=14">
+                  <div id="special-2"><img width="500" src="./images/특별관/CINE & LIVING ROOM.png"
+                      alt="CINE & LIVING ROOM">
+                  </div>
+                </a>
+                <a href="http://www.cgv.co.kr/theaters/special/defaultDetailNew.aspx?idx=2">
+                  <div id="special-3"><img width="500" src="./images/특별관/4DX.png" alt="4DX"></div>
+                </a>
+                <a href="http://www.cgv.co.kr/theaters/special/defaultDetailNew.aspx?idx=8">
+                  <div id="special-4"><img width="500" src="./images/특별관/CINE de CHEF.png" alt="CINE de CHEF"></div>
+                </a>
+              </div>
+
+              <div class="special-list">
+                <ul class="special-item">
+                  <li>
+                    <a href="http://www.cgv.co.kr/theaters/special/defaultDetailNew.aspx?idx=7">
+                      <strong class="special-left">SUITE CINEMA</strong>
+                      <div><span class="special-right">#호텔 컨셉의 프리미엄관</span></div>
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class="special-item">
+                  <li>
+                    <a href="http://www.cgv.co.kr/theaters/special/defaultDetailNew.aspx?idx=14">
+                      <strong class="special-left">CINE & LIVING ROOM</strong>
+                      <div><span class="special-right">#신개념 소셜 상영관</span></div>
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class="special-item">
+                  <li>
+                    <a href="http://www.cgv.co.kr/theaters/special/defaultDetailNew.aspx?idx=2">
+                      <strong class="special-left">4DX</strong>
+                      <div><span class="special-right">#모션시트 #오감체험</span></div>
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class="special-item">
+                  <li>
+                    <a href="http://www.cgv.co.kr/theaters/special/defaultDetailNew.aspx?idx=8">
+                      <strong class="special-left">CINE de CHEF</strong>
+                      <div><span class="special-right">#쉐프가 있는 영화관</span></div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mv-box-4">
+          <div class="mv-4">
+
+            <div class="tool-box">
+              <div class="ticket">
+                <div class="ticket-top">
+                  <strong>영화관람권</strong>
+                  <button type="button">
+                    <p>더보기</p>
+                  </button>
+                </div>
+                <ul class="ticket-list">
+                  <li class="ticket-item">
+                    <a href="http://www.cgv.co.kr/culture-event/popcorn-store/product-detail.aspx?GG_NO=100253">
+                      <div class="tk-img">
+                        <img width="70" src="./images/ticket/CGV 영화관람권.jpg" alt="CGV 영화관람권">
+                        <div class="tk-text">
+                          <p>CGV 영화관람권</p>
+                          <strong>12,000원</strong>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="ticket-item">
+                    <a href="http://www.cgv.co.kr/culture-event/popcorn-store/product-detail.aspx?GG_NO=100026">
+                      <div class="tk-img">
+                        <img width="70" src="./images/ticket/CGV 골드클래스.jpg" alt="CGV 골드클래스">
+                        <div class="tk-text">
+                          <p>CGV 골드클래스</p>
+                          <strong>40,000d원</strong>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="ticket-item">
+                    <a href="http://www.cgv.co.kr/culture-event/popcorn-store/product-detail.aspx?GG_NO=100255">
+                      <div class="tk-img">
+                        <img width="70" src="./images/ticket/4D관람권.jpg" alt="4D관람권">
+                        <div class="tk-text">
+                          <p>4D관람권</p>
+                          <strong>19,000원</strong>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="tool-box">
+              <div class="gift-card">
+                <div class="gift-card-top">
+                  <strong>기프트카드</strong>
+                  <button type="button">
+                    <p>더보기</p>
+                  </button>
+                </div>
+                <ul class="gift-card-list">
+                  <li class="gift-card-item">
+                    <a href="http://www.cgv.co.kr/culture-event/popcorn-store/product-detail.aspx?GG_NO=100161">
+                      <div class="gc-img">
+                        <img width="70" src="./images/gift card/PACONNLE A형 .jpg" alt="PACONNLE A형">
+                        <div class="gc-text">
+                          <p>PACONNLE A형</p>
+                          <strong>금액충전형</strong>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="gift-card-item">
+                    <a href="http://www.cgv.co.kr/culture-event/popcorn-store/product-detail.aspx?GG_NO=100162">
+                      <div class="gc-img">
+                        <img width="70" src="./images/gift card/PACONNLE B형 .jpg" alt="PACONNLE B형">
+                        <div class="gc-text">
+                          <p>PACONNLE B형</p>
+                          <strong>금액충전형</strong>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="gift-card-item">
+                    <a href="http://www.cgv.co.kr/culture-event/popcorn-store/product-detail.aspx?GG_NO=100163">
+                      <div class="gc-img">
+                        <img width="70" src="./images/gift card/PACONNLE C형 .jpg" alt="PACONNLE C형">
+                        <div class="gc-text">
+                          <p>PACONNLE C형</p>
+                          <strong>금액충전형</strong>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="tool-box">
+              <div class="drink">
+                <div class="drink-top">
+                  <strong>음료</strong>
+                  <button type="button">
+                    <p>더보기</p>
+                  </button>
+                </div>
+
+                <ul class="drink-list">
+                  <li class="drink-item">
+                    <a href="http://www.cgv.co.kr/culture-event/popcorn-store/product-detail.aspx?GG_NO=100083">
+                      <div class="dk-img">
+                        <img width="70" src="./images/drink/탄산음료(M).jpg" alt="탄산음료(M)">
+                        <div class="dk-text">
+                          <p>탄산음료(M)</p>
+                          <strong>2,500</strong>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="drink-item">
+                    <a href="http://www.cgv.co.kr/culture-event/popcorn-store/product-detail.aspx?GG_NO=100089">
+                      <div class="dk-img">
+                        <img width="70" src="./images/drink/아메리카노 (HOT ).jpg" alt="아메리카노(HOT)">
+                        <div class="dk-text">
+                          <p>아메리카노(HOT)</p>
+                          <strong>3,500</strong>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="drink-item">
+                    <a href="http://www.cgv.co.kr/culture-event/popcorn-store/product-detail.aspx?GG_NO=100090">
+                      <div class="dk-img">
+                        <img width="70" src="./images/drink/아메리카노(ICE).jpg" alt="아메리카노(ICE)">
+                        <div class="dk-text">
+                          <p>아메리카노(ICE)</p>
+                          <strong>4,000</strong>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mv-box-5">
+          <div class="mv-5">
+            <div class="left-box">
+              <div class="mv-5-left">
+                <div class="mv-5-note">
+                  <strong>공지사항</strong>
+                  <a href="">
+                    <p>[기타]개인정보처리방침 개정 안내 (1/16 字 시행)</p>
+                  </a>
+                  <p><button type="button">
+                      <p>더보기</p>
+                    </button></p>
+                </div>
+                <div class="mv-5-info">
+                  <strong>고객센터</strong>
+                  <ul class="mv-5-info-list">
+                    <li>1544-1122</li>
+                    <li>고객센터 운영시간 (평일 09:00~18:00)</li>
+                    <li>업무시간 외 자동응답 안내 가능합니다.</li>
+                  </ul>
+                </div>
+                <div class="mv-5-tag">
+                  <button type="button">FAQ</button>
+                  <button type="button">1:1 문의</button>
+                  <button type="button">대관/단체 문의</button>
+                </div>
+              </div>
+              <div class="mv-5-left-2">
+                <ul class="app-list">
+                  <li>앱 다운로드</li>
+                  <li>CGV앱에서 더 편리하게 이용하세요</li>
+                  <li><img width="60" src="./images/영화 그 이상의 감동. CGV_files/img_qrcode.gif" alt="qr코드"></li>
+                  <li>QR코드를 스캔하고</li>
+                  <li>앱설치 페이지로 바로 이동하세요</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mv-5-right">
+              <img src="./images/영화 그 이상의 감동. CGV_files/1221_226x259_1.jpg" alt="기프트 카드 광고">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-box">
+          <div class="empty-box"></div>
+          <div class="footer-top-list">
+            <ul class="footer-top-item">
+              <li><a href="http://corp.cgv.co.kr/">
+                  회사소개</a></li>
+
+              <li><a href="http://corp.cgv.co.kr/company/ir/financial/financial_list.aspx">
+                  IR
+                </a></li>
+
+              <li><a href="http://corp.cgv.co.kr/company/recruit/step/default.aspx">
+                  채용정보
+                </a></li>
+
+              <li><a href="http://corp.cgv.co.kr/company/advertize/ad_Default.aspx">
+                  광고/제휴/출점문의
+                </a></li>
+
+              <li><a href="http://www.cgv.co.kr/rules/service.aspx">
+                  이용약관
+                </a></li>
+
+              <li><a href="http://www.cgv.co.kr/rules/organized.aspx">
+                  편성기준
+                </a></li>
+
+              <li><a href="http://www.cgv.co.kr/rules/privacy.aspx">
+                  개인정보처리방침
+                </a></li>
+
+              <li><a href="http://www.cgv.co.kr/rules/disclaimer.aspx">
+                  법적고지
+                </a></li>
+
+              <li><a href="http://www.cgv.co.kr/rules/emreject.aspx">
+                  이메일주소무단수집거부
+                </a></li>
+
+              <li><a href="http://corp.cgv.co.kr/company/ethicalManagement/ceoMessage.aspx">
+                  윤리경영
+                </a></li>
+
+              <li><a href="https://www.cgv.co.kr/company/cyberAudit.aspx">
+                  사이버감사실
+                </a></li>
+            </ul>
+          </div>
+
+          <div class="footer-bottom-list">
+            <ul class="footer-bottom-item">
+              <li>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)</li>
+              <li>대표이사 : 허민회 사업자등록번호 : 104-81-45690 통신판매업신고번호 : 2017-서울용산-0662 <a
+                  href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=1048145690">사업자정보확인</a></li>
+              <li>호스팅사업자 : CJ올리브네트웍스 개인정보보호 책임자 : 심준범 대표이메일 : cjcgvmaster@cj.net</li>
+              <li>© CJ CGV. All Rights Reserved</li>
+            </ul>
+            <select>
+              <option value="">계열사 바로가기</option>
+              <optgroup label="CJ그룹">
+                <option value="">CJ주식회사</option>
+              </optgroup>
+              <optgroup label="식품 & 식품서비스">
+                <option value="">CJ제일제당</option>
+                <option value="">CJ푸드빌</option>
+                <option value="">CJ프레이웨이</option>
+              </optgroup>
+              <optgroup label="생명공학">
+                <option value="">CJ제일제당 BIO사업부분</option>
+                <option value="">CJ Feed&Card</option>
+              </optgroup>
+              <optgroup label="물류 & 신유통">
+                <option value="">CJ대한통운</option>
+                <option value="">CJ대한통운 건설부문</option>
+                <option value="">CJ올리브영</option>
+                <option value="">CJ올리브네트웍스</option>
+                <option value="">CJ ENM 커머스부문</option>
+              </optgroup>
+              <optgroup label="엔터테인먼트 & 미디어">
+                <option value="">CJ ENM 엔터테인먼트</option>
+                <option value="">CJ CGV</option>
+              </optgroup>
+            </select>
+            <button class="go-btn" type="button">GO</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./javascript.js"></script>
+</body>
+
+</html>
