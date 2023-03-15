@@ -4,12 +4,17 @@
 $(function () {
   var $menuBoxList = $(".menu-box-list");
   var $subMenu = $(".sub-menu");
+  
 
   $menuBoxList.mouseover(function () {
-    $subMenu.slideDown();
+    $subMenu.stop().slideDown();
+    
   });
 
   $menuBoxList.mouseout(function () {
-    $subMenu.slideUp();
+    $subMenu.stop().slideUp();
+  
   });
 });
+
+

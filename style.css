@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* body {
@@ -214,6 +215,51 @@ button {
   position: relative;
 }
 
+.main-menu-box {
+  width: 100%;
+  background-color: rgb(240, 66, 66);
+  padding: 12px;
+}
+
+.main-menu {
+  width: 53%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.main-menu img {
+  width: 70px;
+}
+
+.main-menu-list {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+
+.main-menu-list li a {
+  color: #fff;
+  font-weight: 700;
+}
+
+.sreach-box input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  font-size: 15px;
+  width: 180px;
+}
+
+.sreach-box i {
+  font-size: 25px;
+  color: #fff;
+}
+
+.sreach-box
 .main-video {
   width: 1200px;
   height: 500px;
@@ -223,7 +269,9 @@ button {
 .main-video video {
   width: 1200px;
   height: 450px;
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .prins-chaming {

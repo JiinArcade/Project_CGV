@@ -29,13 +29,19 @@
   <!-- 제이커리 -->
   <script src="https://code.jquery.com/jquery-3.6.3.min.js"
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <!-- 폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="wrapper">
     <header>
       <div class="cgv-on-top">
-        <button class="close-btn">X</button>
+        <button class="close-btn">
+          <img src="./images/영화 그 이상의 감동. CGV_files/btn_ad_close.png" alt="">
+        </button>
         <a href="http://www.cgv.co.kr/movies/detail-view/?midx=86489">
           <img src="./images/header/gnb_header.jpg" alt="배너">
         </a>
@@ -157,14 +163,39 @@
       </div>
     </header>
 
+
     <main>
       <div class="main-wrapper">
-        <div class="main-video">
-          <!-- <video autoplay loop>
-            <source src="./images/y2meta.com - [티저 예고편] 프린스 챠밍.mp4">
-          </video> -->
-        </div>
+        <section class="main-menu-box">
+          <div class="main-menu">
+            <h1 class="logo">
+              <a href="./index.html">
+                <img src="./images/영화 그 이상의 감동. CGV_files/logoWhite.png" alt="">
+              </a>
+            </h1>
+            <ul class="main-menu-list">
+              <li class="main-menu-item"><a href="#">영화</a></li>
+              <li class="main-menu-item"><a href="#">극장</a></li>
+              <li class="main-menu-item"><a href="#">예매</a></li>
+              <li class="main-menu-item"><a href="#">스토어</a></li>
+              <li class="main-menu-item"><a href="#">이벤트</a></li>
+              <li class="main-menu-item"><a href="#">혜택</a></li>
+            </ul>
+            <div class="sreach-box">
+              <input class="serch" type="text">
+              <button type="button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+        </section>
 
+
+        <div class="main-video">
+          <video autoplay loop>
+            <source src="./images/y2meta.com - [티저 예고편] 프린스 챠밍.mp4">
+          </video>
+        </div>
         <!-- <iframe src="./images/y2meta.com - [티저 예고편] 프린스 챠밍.mp4" frameborder="0"></iframe> -->
         <nav class="prins-chaming">
           <div class="prins-chaming-box">
